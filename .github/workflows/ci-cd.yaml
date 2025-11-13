@@ -4,8 +4,8 @@ name: "CI/CD Pipeline - Build, Scan, Deploy GitHub Gist API"
 on:
   push:
     branches:
-      - '**'
-workflow_dispatch:
+      - main
+
 
 env:
   IMAGE_NAME: cherukudocker/github-gist-api
