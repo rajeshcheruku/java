@@ -1,6 +1,5 @@
 name: "CI/CD Pipeline - Build, Scan, Deploy GitHub Gist API"
 
-##ahgfjhg
 on:
   push:
     branches:
@@ -79,6 +78,7 @@ jobs:
           ignore-unfixed: true
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
+          
 
   update_k8s:
     name: Update Deployment YAML with New Tag
