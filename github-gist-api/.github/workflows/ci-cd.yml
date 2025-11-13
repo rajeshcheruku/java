@@ -1,6 +1,4 @@
 name: "CI/CD Pipeline - Build, Scan, Deploy GitHub Gist API"
-#some test 
-
 on:
   push:
     branches:
