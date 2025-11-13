@@ -1,0 +1,21 @@
+# Ignore everything by default
+**
+
+# Include only what we need
+!pom.xml
+!Dockerfile
+!src/
+!target/*.jar     # Include pre-built JAR for pipeline
+
+# Git files
+.git/
+.gitignore
+
+# IDE/project files
+*.iml
+.idea/
+*.log
+.DS_Store
+
+# OS files
+Thumbs.db

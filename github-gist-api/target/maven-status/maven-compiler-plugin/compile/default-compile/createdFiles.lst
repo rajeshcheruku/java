@@ -1,0 +1,5 @@
+com\example\githubgistapi\service\GistService.class
+com\example\githubgistapi\config\WebClientConfig.class
+com\example\githubgistapi\GithubGistApiApplication.class
+com\example\githubgistapi\controller\GistController.class
+com\example\githubgistapi\model\Gist.class

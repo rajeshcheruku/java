@@ -1,0 +1,4 @@
+com\example\githubgistapi\GithubGistApiApplicationTest.class
+com\example\githubgistapi\service\GistServiceTest.class
+com\example\githubgistapi\controller\GistControllerTest.class
+com\example\githubgistapi\model\Gist.class
