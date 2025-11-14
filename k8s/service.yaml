@@ -4,9 +4,10 @@ metadata:
   name: github-gist-api
   namespace: gist-api
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: github-gist-api
   ports:
     - port: 80
       targetPort: 8080
+      nodePort: 30080
