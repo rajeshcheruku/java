@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: github-gist-api
-        image: cherukudocker/github-gist-api:11
+        image: cherukudocker/github-gist-api:12
         ports:
         - containerPort: 8080
